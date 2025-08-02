@@ -21,7 +21,7 @@ return(
         <div className="hero-image">
     
           <img
-            src={`${import.meta.env.BASE_URL}/public/images/world.avif`}
+            src="https://sayankoley.github.io/country-app/images/world.avif"
             alt="world is beauty"
             className="banner-image"
           />
