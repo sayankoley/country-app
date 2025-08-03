@@ -34,7 +34,7 @@ export const Country = () => {
     const timer = setTimeout(() => {
       setDebouncedSearch(search);
       setIsTyping(false); // ⬅️ Typing finished
-    }, 1200); // debounce delay
+    }, 3500); // debounce delay
 
     return () => clearTimeout(timer);
   }, [search]);
